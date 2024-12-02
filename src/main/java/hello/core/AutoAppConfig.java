@@ -29,9 +29,9 @@ public class AutoAppConfig {
         return new OrderServiceImpl(memberRepository, discountPolicy);
     }*/
 
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 
 }
